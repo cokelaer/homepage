@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   
+
+<title>Thomas Cokelaer Homepage</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+<link rel="stylesheet" href="css/main.css">
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js?ver=1.6.1'></script>
+<script type='text/javascript' src='config_slider.js'></script>
+
+<script type='text/javascript' src='jquery.nivo.slider.pack.js'></script>
+
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<script src="js/modernizr-2.0.6.min.js"></script>
+            <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+</head>
+<body class="home">
+<div id="outer-container">
+
+    <div id="inner">
+        <div id="myHeader"></div>
+        <script> $('#myHeader').load('header.html'); </script>
+
+        <div id="top-nav" class="clearfix"></div>
+        <script> $('#top-nav').load('nav.html'); </script>
+    </div>
+
+    <div id="main" role="main">
+        <div class="inner columns">
+        <h4>Current/Active  developments</h4>
+            <div class="box" >
+                <h4><a href="https://pypi.python.org/pypi/bioservices">BioServices</a></h4>
+                <img src="images/bioservices.png" style="background-color:white;" alt="bioservices logo"/>
+                <p>Bioservices is a Python package that provides access to many Bioinformatices Web Services (e.g., UniProt) and a framework to easily implement Web Services wrappers (based on WSDL/SOAP or REST protocols).</p>
+
+                <p>  The source code is available on <a href="https://pypi.python.org/pypi/bioservices">PyPi</a> together with an online documentation.</p>
+               </div>
+
+               <div class="box">
+                   <h4><a href="https://pypi.python.org/pypi/rtools">Rtools</a></h4>
+                   <p>
+                   The package rtools provides utilities that are of general usage for developing software that use the RPy2 package. This is not a replacement of RPy2 but rather an addon to simplify the life of developers who are using R packages from Python.</p>
+
+     </div>
+
+     <div class="box">
+         <h4><a href="http://www.cellnopt.org">CellNOptR related</a></h4>
+         <a href="http://www.cellnopt.org"><img src="images/software_cellnopt.png" alt="cellnopt screenshot"/></a>
+                   <p>
+CellNOpt (from CellNetOptimizer; a.k.a. CNO) is a software used for creating logic-based models of signal transduction networks using different logic formalisms (Boolean, Fuzzy, or differential equations). CellNOpt uses information on signaling pathways encoded as a Prior Knowledge Network, and trains it against high-throughput biochemical data to create cell-specific models.
+</p>
+     </div>
+
+     <div style="clear:both"></div>
+     </div>
+     <hr>
+        <div class="inner columns">
+     <div style="clear:both"></div>
+            <h4>Some Previous Developments</h4>
+
+     <div class="box">
+         <h4><a href="http://openalea.gforge.inria.fr/dokuwiki/doku.php">OpenAlea/VisuAlea</a></h4>
+         Openalea project.
+         <a href="http://openalea.gforge.inria.fr/dokuwiki/doku.php">
+         <img src="images/logo_openalea.png" style="background-color:white" alt="openalea logo" /></a>
+         </div>
+
+
+  
+         <div class="box">
+             <h4><a href="http://www.thomas-cokelaer.info/software/spectrum/html/contents.html">Spectrum</a></h4>
+             <p>Spectrum is a Digital Spectral analysis software written in Python. The origin of this library is a C++ library that I wrote during my PhD, which was in C++ only. This former library was mainly based on the book "Digital Spectral analysis" from Marple Lawrence. </p>
+             <a href="http://www.thomas-cokelaer.info/software/spectrum/html/contents.html"><img src="images/psd.png" alt="spectrum screenshot" /></a>
+             <p>
+             I re-engineered this work using Python so as to get rapidly a more robust code with a full set of documentation and tests.
+             </p>
+             <p>For now, the library contains PSD estimates based on Fourier or Parametric methods. The Fourier methods are correlogram, periodogram and Welch estimates with a bunch of tapering windows from standard (Hann, Hamming, Blackman) to more exotic (DPSS, Taylor, ...). The parametric methods are based upon Yule-Walker and BURG estimates but also more complex such as coriance and modified covariance methods. Other methods based on eigen analysis such as MUSIC method are also implemented. In the close future, Multitapering methods should also be present</p>
+     </div>
+
+
+     <div class="box"><h4 style="color:white">Misc</h4>
+         <ul>
+             <li><a href="https://www.lsc-group.phys.uwm.edu/daswg/projects/lalsuite.html">LAL/LALAPPS: Ligo ALgorithms Library</a></li>
+             <li>Virtual Plants</li>
+
+         </ul>
+        
+        
+            </div>
+
+  </div>
+  </div>
+    
+ <div id="footer">
+         <script> $('#footer').load('footer.html'); </script>
+ </div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Thomas Cokelaer.org::photoalbum</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js?ver=1.6.1'></script>
+    <script type='text/javascript' src='config_slider.js'></script>
+
+    <script type='text/javascript' src='js/custom.js'></script>
+    <script type='text/javascript' src='jquery.nivo.slider.pack.js'></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/modernizr-2.0.6.min.js"></script>
+
+
+    <!-- Le styles -->
+    <!-- .cokelaer {
+        font-family: "Overlock", "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: 700;
+    } -->
+
+
+    <link rel="stylesheet" href="css/galleria.css">
+
+    <!-- load jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+
+    <!-- load Galleria -->
+    <script src="galleria/galleria-1.4.1.js"></script>
+    <script src="galleria/plugins/galleria.picasa.min.js"></script>
+
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+
+    </head>
+
+
+ <body class="home">
+    <div id="outer-container">
+
+        <div id="inner">
+            <div id="myHeader"></div>
+            <script> $('#myHeader').load('header.html'); </script>
+            <div id="top-nav"></div>
+            <script> $('#top-nav').load('nav.html'); </script>
+        </div>
+
+        <div id="main" role="main">
+            <div class="inner">
+
+    <div class="container">
+
+    <div class="content">
+        <h1 href=#Sample>Sample</h1>
+        <div id="galleria"></div>
+        More coming soon...
+    </div>
+
+    <script>
+
+    // define the JSON data
+    var data = [{
+        image: 'images/albums/BO/Wo.JPG',
+        thumb: 'images/albums/BO/Wo.JPG',
+        layer: '<div><h2>Montpellier</h2><p> between land and sea at sunset</div>'
+        },
+        {image: 'images/albums/BO/DSC01538.JPG',
+        thumb: 'images/albums/BO/DSC01538.JPG',
+        layer: '<div><h2>Crotia</h2><p>Pitivic National Park</p></div>'},
+
+        {image: 'images/albums/BO/small_DSC_0851.JPG',
+        thumb: 'images/albums/BO/small_DSC_0851.JPG',
+        layer: '<div><h2>France</h2><p>Calais</p></div>'},
+
+        {image: 'images/albums/BO/small_DSC01560.JPG',
+        thumb: 'images/albums/BO/small_DSC01560.JPG',
+        layer: '<div><h2>Crotia</h2><p>Split</p></div>'},
+
+        {image: 'images/albums/BO/small_DSC_1234.JPG',
+        thumb: 'images/albums/BO/small_DSC_1234.JPG',
+        layer: '<div><h2>U.K.</h2><p></p></div>'},
+
+
+        {image: 'images/albums/BO/small_DSC_0523.JPG',
+        thumb: 'images/albums/BO/small_DSC_0523.JPG',
+        layer: '<div><h2>France</h2><p>Dinard</p></div>'},
+       
+        {image: 'images/albums/BO/small_DSC_1459.JPG',
+        thumb: 'images/albums/BO/small_DSC_1459.JPG',
+        layer: '<div><h2>France</h2><p>Lighthouse Calais, Aug 2014</p></div>'},
+
+    ];
+
+    // Load the classic theme
+    Galleria.loadTheme('galleria/themes/classic/galleria.classic.js');
+
+    // Initialize Galleria
+    $('#galleria').galleria({
+        imageCrop: false,
+        dataSource: data,
+        transition: 'fadeslide',
+        //transition: "pulse",
+        transitionSpeed: 500,
+        autoplay: 7000,
+        lightbox: true,
+    });
+</script>
+
+</div>
+</div>
+
+</div>
+
+    <footer id="footer">
+        <script> $('#footer').load('footer.html'); </script>
+    </footer>
+</div>
+
+</body>
+</html>
