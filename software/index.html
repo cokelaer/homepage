@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>Several software amongst which spectrum, a digital spectral analysis toolbox written in Python</title>
+    <meta name="keywords" content="Thomas Cokelaer, spectrum, pburg, fourier, arma, yule walker, covariance, modified covariance, time series, financial data" />
+    <meta name="copyright" content="2011, Thomas Cokelaer" />
+    <meta name="description" content="software: spectrum, timeseries" />
+    <link rel="stylesheet" href="../style.css" type="text/css" />
+    <link rel="stylesheet" href="http://www.thomas-cokelaer.info/blog/wp-content/themes/mytheme/style.css" type="text/css" />
+
+</head>
+
+
+
+<body class="page page-id-2 page-template page-template-default logged-in admin-bar">
+<div id="wrapper" class="hfeed">
+    <div id="header">
+        <div id="masthead">
+	        <script type="text/javascript" src="../title.js"></script>
+            <div id="access">
+	            <script type="text/javascript" src="../banner.js"></script>
+            </div><!-- #access -->
+        </div><!-- #masthead -->
+    </div><!-- #header -->
+<br/>
+
+<div style="clear-both;"></div>
+
+<div class="body">
+    <div class="section"><br/>
+	<br/>
+
+
+    <div class="software">
+        <h1><a >Python software on Pypi</a></h1>
+        <div class="software_content">
+<ul>
+<li><a href="https://pypi.python.org/pypi/rtools">RTools</a>: a package to ease the manipulation of R packages from Python</li>
+<li><a href="https://pypi.python.org/pypi/bioservices">BioServices</a>: access to Biological Web Services from Python (either SOAP or REST protocol) such as BioModels, UniProt, ...</li>
+<li><a href="https://pypi.python.org/pypi/cellnopt.wrapper">Cellnopt.wrapper</a> a Python wrapper to <a href="http://www.cellnopt.org">cellnopt</a> R package </a></li>
+<li><a href="https://pypi.python.org/pypi/easydev"><easydev/a>Common package for development</li>
+<li><a href="https://pypi.python.org/pypi/spectrum">spectrum (see below)</a></li>
+</ul>
+</div>
+</div>
+
+
+
+    <div class="software">
+        <h1><a >Spectrum</a></h1>
+
+        <div class="software_content">
+            <p><b>Spectrum</b> is a Digital Spectral analysis software written in Python. The origin of this library is a C++ library that I wrote during my PhD, which was in C++ only. This former library was mainly based on the book "Digital Spectral analysis" from Marple Lawrence. </p>
+        <div class="software_image"><a href="spectrum/html/contents.html"><img alt="psd.png" src="psd.png" /></a></div>
+
+	      <p>I re-engineered this work using Python so as to get rapidly a more robust code with a full set of documentation and tests. </p>
+
+	      <p>For now, the library contains PSD estimates based on Fourier or Parametric methods. The Fourier methods
+	      are correlogram, periodogram and Welch estimates with a bunch of tapering windows from standard 
+	      (Hann, Hamming, Blackman) to more exotic (DPSS, Taylor, ...). The parametric methods are based upon 
+	      Yule-Walker and BURG estimates but also more complex such as coriance and modified covariance methods.
+	      Other methods based on eigen analysis such as MUSIC method are also implemented. In the close future, 
+	      Multitapering methods should also be present</p>
+        </div><!-- software content -->
+    </div><!-- software -->
+
+    <div class="software">
+        <h1><a >TimeSeries</a></h1>
+         <div class="software_content">   
+            <p><b>TimeSeries</b> is a Python Library to manipulate Time Series, Events and Financial Data.</p> 
+	        <div class="software_image"><a href="timeseries/html/contents.html"><img alt="timeseries.png" src="timeseries.png" /></a></div>
+    	</div><!-- software content -->
+	</div><!-- software -->
+
+    </div> <!-- section -->
+ </div><!-- body-->
+
+
+
+<div style="clear:both;"></div>
+
+
+</div><!-- wrapper -->
+
+</body>
+</html>

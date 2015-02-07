@@ -1,0 +1,15 @@
+
+
+
+
+            .content{color:#fff;font:14px/1.3 "helvetica neue",arial,sans-serif;width:620px;margin:20px auto;}
+
+            /* This rule is read by Galleria to define the gallery height: */
+            #galleria{height:320px;margin-bottom:20px}
+
+            /* some extra styles for the layer */
+            .galleria-layer div{top:10px;left:10px;padding:10px;position:absolute;background:url(bg.png);color:#fff}
+            .galleria-layer h2{margin: 0 0 8px;font-size:22px;line-height:1;}
+            .galleria-layer p{margin:0}
+
+
