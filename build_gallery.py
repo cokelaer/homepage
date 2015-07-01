@@ -70,7 +70,7 @@ nav = """
 footer = """
       <div class="row">
         <div class="span9">
-          <p>&copy; <a href="mailto:cokelaer@gmail.com">Thomas Cokelaer</a> 2013 — last modified on %(date)s</p>
+          <p>&copy; <a href="mailto:cokelaer at gmail dot com">Thomas Cokelaer</a> 2013 — last modified on %(date)s</p>
         </div>
       </div>
     </div>
